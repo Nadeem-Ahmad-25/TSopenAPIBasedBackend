@@ -1,7 +1,7 @@
 Building OpenAPI-compliant REST APIs using TypeScript and Node
 tsoa is a framework with integrated OpenAPI compiler to build Node.js serve-side applications using TypeScript. It can target express, hapi, koa and more frameworks at runtime. tsoa applications are type-safe by default and handle runtime validation seamlessly.
 
-#**Goal**#
+#**Goal**
 TypeScript controllers and models as the single source of truth for your API
 A valid OpenAPI (formerly Swagger) spec (2.0 or 3.0) is generated from your controllers and models, including:
 Paths (e.g. GET /Users)
@@ -12,7 +12,7 @@ Routes are generated for middleware of choice
 Express, Hapi, and Koa currently supported, other middleware can be supported using a simple handlebars template
 Seamless runtime validation
 
-#**Intuition**#
+#**Intuition**
 Rely on TypeScript type annotations to generate API metadata if possible
 If regular type annotations aren't an appropriate way to express metadata, use decorators
 Use jsdoc for pure text metadata (e.g. endpoint descriptions)
