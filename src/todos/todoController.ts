@@ -9,11 +9,11 @@ import {
     SuccessResponse,
   } from "tsoa";
   import { Todo } from "./todo";
-  import { TodoService, TodoCreationParams } from "./service";
+  import { TodoService, TodoCreationParams } from "./todoService";
 
 @Route("todo")
   export class TodoController extends Controller{
-    @Get("{todoid}")
+    @Get("{todoId}")
     
     public async getTodo (
         @Path() todoId: string,
