@@ -20,3 +20,13 @@ Minimize boilerplate
 Models are best represented by interfaces (pure data structures), but can also be represented by classes
 Runtime validation of tsoa should behave as closely as possible to the specifications that the generated OpenAPI 2/3 schema describes. Any differences in validation logic are clarified by logging warnings during the generation of the OpenAPI Specification (OAS) and/or the routes.
 Please note that by enabling OpenAPI 3 you minimize the chances of divergent validation logic since OpenAPI 3 has a more expressive schema syntax.
+
+more on https://tsoa-community.github.io/docs/getting-started.html
+
+but a much cooler thing is how we create a node-client for FE developers to interact with the controller with minimal lines of code 
+using this command 
+
+npx openapi-typescript-codegen -i ./build/swagger.json -o node-client -c fetch
+
+same can be done G0-Lang clients etc.
+
