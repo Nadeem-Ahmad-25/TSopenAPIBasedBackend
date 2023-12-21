@@ -28,5 +28,12 @@ using this command
 
 npx openapi-typescript-codegen -i ./build/swagger.json -o node-client -c fetch
 
-same can be done G0-Lang clients etc.
+same can be done for G0-Lang clients etc.
+
+also the swagger allows description writing for real-time documentation primarily. but its to be done under the export functions created in controller. 
+
+so thats main takeaways from this repo.
+
+clone and follow the instruction on their getting started page and build your own OpenAPI based RestfulAPI's with more routes.
+
 
